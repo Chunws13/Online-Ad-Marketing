@@ -1,6 +1,8 @@
 # Online-Ad-Marketing
 
 검색량 측정기
+1. Keyword_query.py [키워드 검색량 조회 프로그램]
+2. signaturehelper.py [API 구동을 위한 네이버 측 제공 파일]
 
 네이버 광고시스템 - 키워드도구에서 키워드 검색 시
 검색 키워드 1개 + 연관 키워드 다수의 조합으로 결과 조회
