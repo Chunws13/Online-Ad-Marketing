@@ -6,7 +6,7 @@ class Data_sorting:
         product_filter = product
         device_filter = device
         lpcode_filter = lpcode
-        raw_data = pd.read_excel("./2021_메리츠TM_데이터라벨링.xlsx", sheet_name='raw', skiprows=1)
+        raw_data = pd.read_excel("./테스트_데이터_결과모음.xlsx", sheet_name='raw', skiprows=1)
 
         self.set_data = raw_data.loc[(raw_data['보종'] == product_filter)
                                      & (raw_data['기기'] == device_filter) & (raw_data['LP유형'] == lpcode_filter)]
