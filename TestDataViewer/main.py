@@ -16,7 +16,7 @@ from Sub_view import sub_window
 class Ui_MainWindow(object):
 
     def __init__(self):
-        data = pd.read_excel("./2021_메리츠TM_데이터라벨링.xlsx", sheet_name='raw', skiprows=1)
+        data = pd.read_excel("./테스트_데이터_결과모.xlsx", sheet_name='raw', skiprows=1)
         self.product_list = data.loc[:, "보종"].unique()
         self.device_list = data.loc[:, "기기"].unique()
         self.lptype_list = data.loc[:, "LP유형"].unique()
